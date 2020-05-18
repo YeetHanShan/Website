@@ -1,0 +1,21 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ads{
+	border: thin solid #007e7e;
+	width: 150px;
+
+	padding: 10px 20px 20px 20px;
+
+	margin-left:	20px;
+	margin-top:     0px;
+
+
+	text-align:		center;
+
+	line-height:	1;
+
+	float:	right;
