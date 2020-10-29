@@ -4,7 +4,7 @@ body {
     color: #ffffff;
 }
 .alert {
-  padding: 100px;
+  padding: 30px;
   background-color: #f44336;
   color: white;
 }
@@ -22,4 +22,18 @@ body {
 
 .closebtn:hover {
   color: black;
+}
+button{
+    border:0;
+    background : none;
+    margin: 5px;
+    border: 2px solid #990099;
+    padding: 7px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+button:hover{
+    background-color: #990099;
 }
