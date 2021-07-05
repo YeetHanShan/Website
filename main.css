@@ -17,3 +17,7 @@ button{
 button:hover{
     background-color: #34eb83;
 }
+
+p{ 
+    font-color: black;
+}
