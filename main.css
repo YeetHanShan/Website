@@ -2,6 +2,10 @@ body {
     font-family: sans-serif;
     color: black;
     text-align: center;
+    width: 900px;
+    padding: 500px;
+    border: 5px black;
+    margin: 0;
 }
 
 button{
