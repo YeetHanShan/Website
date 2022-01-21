@@ -1,40 +1,20 @@
-<!--Why you try to steal my code-->
-<!--Instead of stealing go to https://github.com/YeetHanShan/Website-->
-<!-- 
-  _____ _______ ____  _____  
- / ____|__   __/ __ \|  __ \ 
-| (___    | | | |  | | |__) |
- \___ \   | | | |  | |  ___/ 
- ____) |  | | | |__| | |     
-|_____/   |_|  \____/|_|     
-
--->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script data-ad-client="ca-pub-8158448801133374" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167497444-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-167497444-1');
-        </script>
-    <title>Boris</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="shortcut icon" href="images/logo.png" />
-</head>
-
-
-<body>
-    <h1>Official Website of Le Highlands</h1> <img src = "images/logo.png" width = "200px" height = "70px">
-    <p>
-	Welcome to the official website of the Highlands. Its empty here.<br>
-	<img src = "Pics/Leh.jpg"><br>
-	The gardens.    
-    </p>	    
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Google Api Demo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="689385596111-j2ftspfib4fsui5lsck88pgibv2353ul.apps.googleusercontent.com">
+  </head>
+  <body>
+    <h1>Please Sign In With Google!</h1>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div><br/>
+    <a id = "sign-out" href="#" onclick="signOut();">Sign out</a>
+    <p id = "name"></p>
+    <p id = "pfp"></p>
+    <p id = "email"></p>
+    <script src="script.js"></script>
+  </body>
 </html>
