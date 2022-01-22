@@ -1,2 +1,1 @@
-Blooket Copy Project
-XD
+FUCK FAGS
