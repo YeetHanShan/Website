@@ -1,19 +1,10 @@
-body {
-    font-family: sans-serif;
+body{
+    background-image: url("background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
-button{
-    border:0;
-    background-color: #34eb83;
-    margin: 5px;
-    border: 2px solid #34eb83;
-    padding: 7px 40px;
-    outline: none;
-    color: black;
-    border-radius: 24px;
-    transition: 0.25s;
+#fuckfags{
+  color: white;
 }
-button:hover{
-    background-color: #34eb83;
-}
-

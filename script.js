@@ -1,7 +1,12 @@
-function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
+	var space = " ";
+    var speed = "150";
+    var pos = 0;
+    var msg = "fuckfags.com ";
+    function Scroll()
+    {
+    document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+    pos++;
+    if (pos > msg.length) pos = 0;
+    window.setTimeout("Scroll()", speed);
+    }
+    Scroll();
