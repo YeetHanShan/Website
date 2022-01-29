@@ -1,16 +1,20 @@
 body{
-    background-image: url("background.gif");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 
-#fuckfags{
-  color: white;
+p{
+  color: black;
+}
+
+button {
+  background-repeat: no-repeat;
+  background-image: Blooks/alice.svg;
 }
 
 #warning{
-  color: white;
+  color: black;
   font-size: 5px;
 }
 
@@ -19,9 +23,9 @@ body{
 }
 
 #TOS{
-  color: white;
+  color: black;
 }
 
 #TOSTitle{
-  color: white;
+  color: black;
 }
